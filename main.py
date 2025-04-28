@@ -3,8 +3,6 @@ import pandas as pd
 import glob
 from pathlib import Path
 
-from openpyxl.styles.builtins import total
-
 filepaths = glob.glob("invoices/*xlsx*")
 
 for filepath in filepaths:
